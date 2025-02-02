@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js" crossorigin="anonymous"></script>
+    <title>Profile Card</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(to right, #ff9a9e, #fad0c4, #ffdde1);
+        }
+        .card {
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+            border-radius: 10px;
+            padding: 30px;
+            text-align: center;
+            color: black;
+            width: 350px;
+            height: 450px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .card img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 4px solid white;
+            margin-bottom: 20px;
+        }
+        .card h2 {
+            font-size: 24px;
+        }
+        .card p {
+            font-size: 18px;
+            opacity: 0.8;
+        }
+        .social-icons {
+            margin-top: 15px;
+        }
+        .social-icons a {
+            margin: 0 10px;
+            color: white;
+            font-size: 24px;
+            transition: 0.3s;
+            text-decoration: none;
+        }
+        .social-icons a:hover {
+            color: #ff4b8f;
+        }
+        .card button {
+            margin-top: 20px;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 25px;
+            background: #ff7eb3;
+            color: white;
+            cursor: pointer;
+            transition: 0.3s;
+            font-size: 16px;
+        }
+        .card button:hover {
+            background: #ff4b8f;
+        }
+    </style>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="card">
+        <img src="file.jpg" alt="Avatar">
+        <h2>Ngô Hoàng Yến Quỳnh</h2>
+        <p><strong>Năm sinh:</strong>09/09/2007</p>
+        <p><strong>Quê quán:</strong>phường ĐP, TP ĐH, tỉnh QB</p>
+        <p><strong>Sở thích:</strong>Lướt shooppe, đọc sách,ăn uống</p>
+        
+
+
+        <div class="social-icons">
+            <a href="https://www.facebook.com/quynh.yen.509511" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/iqin_911?fbclid=IwY2xjawIMWGtleHRuA2FlbQIxMAABHZjQ3oQNwb6YFQjRn1qQybCAZzgwVHeoPbmeSsCoHwkEBEwl4Dq7SYC90A_aem_HrZ0N45AivCIktYMOt8y4Q" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+        
+    </div>
+</body>
+</html>
